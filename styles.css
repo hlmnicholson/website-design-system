@@ -20,6 +20,10 @@ h2 {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 section {
   border: 2px solid hsla(250, 47%, 85%, 1);
   margin-bottom: 10px;
