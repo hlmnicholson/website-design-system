@@ -3,12 +3,21 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif;
   padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
-  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  font-family: 'Times New Roman', serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 section {
@@ -26,9 +35,8 @@ section {
   /* border: 2px solid hsla(0, 0%, 92%, 1); */
   display: inline-block;
   height: 100%;
-  margin-top: 4px;
   width: 30%;
-  padding: 10px 10px;
+  padding: 0 10px;
 }
 
 #colour1 {
@@ -52,20 +60,25 @@ section {
   background-color: hsla(250, 47%, 85%, 1);
 }
 
+#colour5 {
+  /* --platinum:  */
+  background-color: hsla(0, 0%, 92%, 1);
+}
+
 div .light {
   /* --platinum:  */
   color: hsla(0, 0%, 92%, 1);
 }
 
-#font1 {
-  font-family: 'Trebuchet MS';
-}
-
-#font2 {
+.font1 {
   font-family: 'Times New Roman';
 }
 
-#font3 {
+.font2 {
+  font-family: 'Trebuchet MS';
+}
+
+.font3 {
   font-family: Helvetica;
 }
 
