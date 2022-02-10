@@ -20,37 +20,34 @@ section {
 
 .content {
   position: relative;
-  text-align: center;
 }
 
 .box {
-  border: 2px solid hsla(0, 0%, 92%, 1);
+  /* border: 2px solid hsla(0, 0%, 92%, 1); */
   display: inline-block;
   height: 100%;
   margin-top: 4px;
-  text-align: center;
-  width: 250px;
+  width: 30%;
   padding: 10px 10px;
 }
 
-
-#box1 {
+#colour1 {
   /* --gunmetal:  */
   background-color: hsla(197, 47%, 18%, 1);
 
 }
 
-#box2 {
+#colour2 {
   /* --space-cadet: */
   background-color: hsla(222, 29%, 27%, 1);
 }
 
-#box3 {
+#colour3 {
   /* --french-lilac: */
   background-color: hsla(266, 17%, 46%, 1);
 }
 
-#box4 {
+#colour4 {
   /* lavender-blue:  */
   background-color: hsla(250, 47%, 85%, 1);
 }
@@ -60,18 +57,8 @@ div .light {
   color: hsla(0, 0%, 92%, 1);
 }
 
-/* .font {
-  border: 2px solid hsla(0, 0%, 92%, 1);
-  display: inline-block;
-  height: 100%;
-  margin-top: 4px;
-  text-align: center;
-  width: 250px;
-  padding: 0 10px;
-} */
-
 #font1 {
-  font-family: Georgia;
+  font-family: 'Trebuchet MS';
 }
 
 #font2 {
